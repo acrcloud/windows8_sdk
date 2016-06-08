@@ -1,0 +1,2 @@
+D:\vsprojects\ACRCloudWinphone8SDK\ACRCloudExtrDllCOM\ACRCloudExtrDllCOM.vcxproj;arm
+D:\vsprojects\ACRCloudWinphone8SDK\ACRCloudWinphone8SDK\ACRCloudWinphone8SDK.csproj;arm

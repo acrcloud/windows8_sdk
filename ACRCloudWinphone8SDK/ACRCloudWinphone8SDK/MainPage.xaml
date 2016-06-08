@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="ACRCloudWinphone8SDK.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ACRCloudWinphone8SDK"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="startbtn" Content="Start" HorizontalAlignment="Left" Margin="70,10,0,0" VerticalAlignment="Top" Height="50" Width="220" Click="startbtn_Click"/>
+        <Button x:Name="stopbtn" Content="Cancel" HorizontalAlignment="Left" Margin="70,88,0,0" VerticalAlignment="Top" Height="52" Width="220" Click="stopbtn_Click"/>
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="18,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="405" Width="317"/>
+    </Grid>
+</Page>
